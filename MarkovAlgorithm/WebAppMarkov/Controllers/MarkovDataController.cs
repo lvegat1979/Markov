@@ -11,7 +11,10 @@ namespace WebAppMarkov.Controllers
     [Route("api/[controller]")]
     public class MarkovDataController : Controller
     {
-
+        /// <summary>
+        /// Retorn Json with the markov 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet("[action]")]
         public List<List<Letter>> MarkovResult()
         {

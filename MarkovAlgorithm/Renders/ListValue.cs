@@ -14,7 +14,7 @@ namespace Renders
         public List<List<WValue>> Values { get; set; }
 
         /// <summary>
-        /// Reorder the matriz by order id
+        /// Reorder the matrix using order field, when the resolved it create 
         /// </summary>
         /// <returns></returns>
         public List<List<WValue>> GetOrderListDesc()
