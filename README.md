@@ -1,17 +1,21 @@
 # Markov Algorithm
 
-This is a implementation for Markov Algorithm resolving a encrypted chain.
+*  This Algorithm was created using Visual Studio and C# 
+*  I created a couple of libraries to centralize the logic.
+*  In the client side I'm using .NET Core and Angular 4.0.
+*  The results are displayed like table, with angular components consuming WebApi.
+*  The start project is <b>WebAppMarkov</b> this must be as an initial project
+*  This solution was implemented to find any work in any direction BONUS
+*  The information is returning as expected JSon File according the instructions 
+*  The solution is using the JSon files 
+*  Please give the necessary access to folder ..\MarkovAlgorithm\WebAppMarkov\Files Because I use this files from the file system
 
-This Algorithm was created using Visual Studio and C# 2017 x Luis Vega
 
-I created a couple of libraries to centralice the logic.
 
-In the client side I'm using .Net Core and Angular 4.0.
+# How to use... 
 
-The results are displayed like table, with angular components consuming WebApi.
-
-The start project is WebAppMarkov this must be as an initial project
-
-I implemented this to find any work in any direction
-
-Please give the necesary acces to folder ..\MarkovAlgorithm\WebAppMarkov\Files Because I use this files from file system
+*  Press Markov Results Option in the Left Menu
+*  Should be displayed a table with the Algorithm Resolved
+*  In the above part of the window are all words from Words.JSon file displayed as checkboxes 
+*  After check some input should paint the word in the table marking the word with yellow color. 
+*  Added an image in the root of the project to show how it looks Resolved.PNG
