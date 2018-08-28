@@ -1,0 +1,212 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "AngularJS.Core/1.7.2": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RenderedClass/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RenderedClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenderedClass.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win": {
+      "AngularJS.Core/1.7.2": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RenderedClass/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RenderedClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenderedClass.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x64": {
+      "AngularJS.Core/1.7.2": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RenderedClass/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RenderedClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenderedClass.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win-x86": {
+      "AngularJS.Core/1.7.2": {
+        "type": "package"
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {}
+        }
+      },
+      "RenderedClass/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/RenderedClass.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RenderedClass.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AngularJS.Core/1.7.2": {
+      "sha512": "K1KZncQ0rvpTFvqnDaqc15FI/V1k0jjyn2x3u0q9RVVoVqdc5m4X27kCxqjxqNWte+CJfYq3mNXIj3LKzrh2Eg==",
+      "type": "package",
+      "path": "angularjs.core/1.7.2",
+      "files": [
+        "angularjs.core.1.7.2.nupkg.sha512",
+        "angularjs.core.nuspec",
+        "content/Scripts/angular-mocks.js",
+        "content/Scripts/angular.js",
+        "content/Scripts/angular.min.js",
+        "content/Scripts/angular.min.js.map"
+      ]
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "sha512": "IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "type": "package",
+      "path": "newtonsoft.json/11.0.2",
+      "files": [
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.11.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "RenderedClass/1.0.0": {
+      "type": "project",
+      "path": "../Renders/RenderedClass.csproj",
+      "msbuildProject": "../Renders/RenderedClass.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "AngularJS.Core >= 1.7.2",
+      "Newtonsoft.Json >= 11.0.2",
+      "RenderedClass >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Luis Vega\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Luis Vega\\source\\VS\\MarkovAlgorithm\\WordMatrixUtils\\WordMatrixUtils.csproj",
+      "projectName": "WordMatrixUtils",
+      "projectPath": "C:\\Users\\Luis Vega\\source\\VS\\MarkovAlgorithm\\WordMatrixUtils\\WordMatrixUtils.csproj",
+      "packagesPath": "C:\\Users\\Luis Vega\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Luis Vega\\source\\VS\\MarkovAlgorithm\\WordMatrixUtils\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Luis Vega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "projectReferences": {
+            "C:\\Users\\Luis Vega\\source\\VS\\MarkovAlgorithm\\Renders\\RenderedClass.csproj": {
+              "projectPath": "C:\\Users\\Luis Vega\\source\\VS\\MarkovAlgorithm\\Renders\\RenderedClass.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "dependencies": {
+          "AngularJS.Core": {
+            "target": "Package",
+            "version": "[1.7.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[11.0.2, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

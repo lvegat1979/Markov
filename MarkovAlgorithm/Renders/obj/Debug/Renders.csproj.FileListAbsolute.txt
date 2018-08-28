@@ -1,0 +1,5 @@
+C:\Users\Luis Vega\source\VS\MarkovAlgorithm\Renders\bin\Debug\Renders.dll
+C:\Users\Luis Vega\source\VS\MarkovAlgorithm\Renders\bin\Debug\Renders.pdb
+C:\Users\Luis Vega\source\VS\MarkovAlgorithm\Renders\obj\Debug\Renders.csproj.CoreCompileInputs.cache
+C:\Users\Luis Vega\source\VS\MarkovAlgorithm\Renders\obj\Debug\Renders.dll
+C:\Users\Luis Vega\source\VS\MarkovAlgorithm\Renders\obj\Debug\Renders.pdb

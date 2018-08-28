@@ -1,0 +1,33 @@
+<h1>Markov Results</h1>
+
+
+<p *ngIf="!markovresult"><em>Loading...</em></p>
+
+<table class='table' *ngIf="markovresult">
+  <thead>
+
+  </thead>
+  <tbody id="markovTable">
+    <tr *ngFor="let row of markovresult">
+      <td *ngFor="let item of row; let i = index ">
+        {{item.character}}
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+<div class="text-center mt-5">
+
+  <div>
+   
+      <label class="list-group-item" *ngFor="let item of words">
+        <input type="checkbox"  [ngModel] ="item.marked" id="{{item.name}}" data-md-icheck (change)="toggleVisibility($event)" />
+        {{item.name}}
+
+      </label>
+   
+  </div>
+
+</div>
