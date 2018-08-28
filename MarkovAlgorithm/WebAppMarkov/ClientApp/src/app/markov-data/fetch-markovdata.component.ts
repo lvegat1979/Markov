@@ -36,11 +36,14 @@ export class FetchMarkovDataComponent {
 
           var sel = "#markovTable > tr:nth-child(" + parseInt(a.row + 1) + ") > td:nth-child(" + parseInt(a.column + 1) + ")";
           var color = $(sel).css("background-color");
-          if (color && color == "rgb(255, 255, 0)")
+          if (color && color == "rgb(255, 255, 0)") {
             $(sel).css("background-color", "white");
-          else
-              $(sel).css("background-color", "yellow");
-          
+            $(sel).css("font-weight","Normal");
+          }
+          else {
+            $(sel).css("background-color", "yellow");
+            $(sel).css("font-weight", "Bold");
+          }
         });
 
       }, error => console.error(error));
