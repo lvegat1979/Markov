@@ -10,7 +10,7 @@ namespace WordMatrixUtils
     /// Class to resolved  the puzzle
     /// Author: Luis Vega
     /// </summary>
-    public class ResolvePuzzle
+    public class ResolvePuzzle : IDisposable
     {
 
 
@@ -186,5 +186,8 @@ namespace WordMatrixUtils
 
         }
 
+        public void Dispose()
+        {
+        }
     }
 }

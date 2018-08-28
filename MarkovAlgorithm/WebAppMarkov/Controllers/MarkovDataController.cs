@@ -30,9 +30,11 @@ namespace WebAppMarkov.Controllers
         public List<Word> WordsPuzzle()
         {
 
-            ReadFile fileUtil = new ReadFile();
-            var outPut = ReadJSonWords();
-            return outPut;
+            using (ReadFile fileUtil = new ReadFile())
+            {
+                var outPut = ReadJSonWords();
+                return outPut;
+            }
         }
 
         /// <summary>
@@ -43,8 +45,10 @@ namespace WebAppMarkov.Controllers
         [HttpGet("[action]")]
         public List<Letter> WordsPuzzleByWord(string word)
         {
-            ResolvePuzzle resolve = new ResolvePuzzle(GetMatrix());
-            return resolve.ResolveByLetter(word);
+            using (ResolvePuzzle resolve = new ResolvePuzzle(GetMatrix()))
+            {
+                return resolve.ResolveByLetter(word);
+            }
         }
         
         /// <summary>
@@ -53,9 +57,10 @@ namespace WebAppMarkov.Controllers
         /// <returns></returns>
         private List<Word> ReadJSonWords()
         {
-            ReadFile fileUtil = new ReadFile();
-            return fileUtil.WordsResolver(Environment.CurrentDirectory + @"\Files\json\words.json");
-           
+            using (ReadFile fileUtil = new ReadFile())
+            {
+                return fileUtil.WordsResolver(Environment.CurrentDirectory + @"\Files\json\words.json");
+            }
         }
 
         /// <summary>
@@ -64,12 +69,16 @@ namespace WebAppMarkov.Controllers
         /// <returns></returns>
         private List<List<Letter>> GetMatrix()
         {
-            ReadFile fileUtil = new ReadFile();
-            var outPut = fileUtil.ResolverForJSon(Environment.CurrentDirectory + @"\Files\json\base.json",
-                                              Environment.CurrentDirectory + @"\Files\json\values.json",
-                                              Environment.CurrentDirectory + @"\Files\json\cypher.json");
+            //I think we can add this inside cache
+            using (ReadFile fileUtil = new ReadFile())
+            {
+                var outPut = fileUtil.ResolverForJSon(Environment.CurrentDirectory + @"\Files\json\base.json",
+                                                  Environment.CurrentDirectory + @"\Files\json\values.json",
+                                                  Environment.CurrentDirectory + @"\Files\json\cypher.json");
 
-            return fileUtil.GetMatrixTextEx(outPut);
+                return fileUtil.GetMatrixTextEx(outPut);
+            }
         }
     }
 }
+ 

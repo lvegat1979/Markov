@@ -14,7 +14,7 @@ namespace WordMatrixUtils
     /// Read File sending by the user.
     /// Author: Luis Vega
     /// </summary>
-    public class ReadFile
+    public class ReadFile : IDisposable
     {
         /// <summary>
         /// Method to get the file file and resolve it.
@@ -133,6 +133,10 @@ namespace WordMatrixUtils
             }
         }
 
+        public void Dispose()
+        {
+            
+        }
     }
 }
 
