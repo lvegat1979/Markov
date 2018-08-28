@@ -19,3 +19,6 @@
 *  In the above part of the window are all words from Words.JSon file displayed as checkboxes 
 *  After check some input should paint the word in the table marking the word with yellow color. 
 *  Added an image in the root of the project to show how it looks Resolved.PNG
+
+
+![](https://github.com/lvegat1979/Markov/blob/master/Resolved.PNG?raw=true)
